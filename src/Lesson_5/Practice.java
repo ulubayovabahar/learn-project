@@ -395,18 +395,30 @@ public class Practice {
 //        Ədədləri filterlə
 //        İstifadəçidən 10 ədəd daxil et, sonra cəmi 5-dən böyük olan ədədləri yeni massivdə saxla və çap et.
 
-        int[] massiv = new int[10];
+//        int[] massiv = new int[10];
+//
+//        for(int i=0; i<10; i++){
+//            System.out.println((i+1) + "Ededi daxil edin: ");
+//            massiv[i] = input.nextInt();
+//        }
+//
+//        for(int i=9; i>=0; i--){
+//            System.out.print(massiv[i] + " ");
+//        }
 
-        for(int i=0; i<10; i++){
-            System.out.println((i+1) + "Ededi daxil edin: ");
+
+        System.out.println("Ededi daxil edin: ");
+        int eded = input.nextInt();
+        int[] massiv = new int[eded];
+
+        for(int i=0; i< massiv.length; i++){
+            System.out.println((i+1) + " Massivin elementini daxil edin: ");
             massiv[i] = input.nextInt();
         }
 
-        for(int i=9; i>=0; i--){
-            System.out.print(massiv[i] + " ");
+        for(int i=0; i< massiv.length; i++){
+            System.out.print(massiv[i] + " , ");
         }
-
-
 
 
 
