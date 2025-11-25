@@ -1,4 +1,4 @@
-package staticKeyword;
+package staticKeyword_Les_6;
 
 public class Calculator {
 

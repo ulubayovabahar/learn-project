@@ -1,6 +1,4 @@
 package Lesson_6_practice;
-import staticKeyword.Calculator;
-import staticKeyword.printClass;
 
 public class main {
 
@@ -11,17 +9,24 @@ public class main {
 
     public static void main(String[] args) {
 
-        printClass cap = new printClass(); // object reference
-        cap.value +=10;
-        cap.value2 += 10;
-        System.out.println(cap.value);
-        System.out.println(cap.value2);
+//        PrintClass cap = new PrintClass(); // object reference
+//        cap.value +=10;
+//        cap.value2 += 10;
+//        System.out.println(cap.value);
+//        System.out.println(cap.value2);
 
-        printClass cap2 = new printClass();
-        cap2.value +=10;
-        cap2.value2 += 10;
-        System.out.println(cap2.value);
-        System.out.println(cap2.value2);
+//        PrintClass cap2 = new PrintClass();
+//        cap2.value +=10;
+//        cap2.value2 += 10;
+//        System.out.println(cap2.value);
+//        System.out.println(cap2.value2);
+
+        Calculate calculator = new Calculate();
+        calculator.sum(10, 20);
+
+        calculator = null;
+
+
 
 
 
