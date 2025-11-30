@@ -1,7 +1,5 @@
-package Lesson_6;
-import java.util.Scanner;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
+package lesson6;
+
 public class Bigdecimal {
     public static void main(String[] args) {
 

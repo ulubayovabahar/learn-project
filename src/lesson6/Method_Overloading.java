@@ -1,4 +1,4 @@
-package Lesson_6;
+package lesson6;
 import java.util.Scanner;
 
 public class Method_Overloading {

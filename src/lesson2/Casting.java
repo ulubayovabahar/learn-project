@@ -1,6 +1,4 @@
-package Lesson_2;
-
-import java.util.Scanner;
+package lesson2;
 
 public class Casting {
     public static void main(String[] args) {

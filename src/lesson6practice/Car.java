@@ -1,4 +1,4 @@
-package lesson_6_practice;
+package lesson6practice;
 
 public class Car {
         private int guc, model;

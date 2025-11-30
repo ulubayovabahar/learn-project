@@ -1,5 +1,4 @@
-package Lesson_3;
-import java.util.Scanner;
+package lesson3;
 
 public class switch_case_break_default {
     public static void main(String[] args) {

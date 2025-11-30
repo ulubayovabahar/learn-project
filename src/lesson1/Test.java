@@ -1,4 +1,4 @@
-package Lesson_1; //Test fayli Lesson_1 qovluqundadir
+package lesson1; //Test fayli Lesson_1 qovluqundadir
 
 public class Test {
     public static void main(String[] args){

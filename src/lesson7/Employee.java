@@ -1,4 +1,4 @@
-package lesson_7;
+package lesson7;
 
 public class Employee {
 /*  Employee adli sinifimiz olsun

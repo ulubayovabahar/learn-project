@@ -1,4 +1,4 @@
-package Lesson_6;
+package lesson6;
 import java.util.Scanner;
 
 public class class_work {

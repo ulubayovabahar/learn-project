@@ -1,4 +1,4 @@
-package lesson_6_practice.gc;
+package lesson6practice.gc;
 
 public class Main {
     public static void main(String[] args) {

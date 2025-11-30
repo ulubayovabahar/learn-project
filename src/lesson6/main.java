@@ -1,4 +1,4 @@
-package Lesson_6;
+package lesson6;
 
 public class main {
 //    static int eded1 = 5;

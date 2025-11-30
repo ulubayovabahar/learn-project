@@ -1,4 +1,4 @@
-package lesson_7.blocks;
+package lesson7.blocks;
 
 public class Cat {
 

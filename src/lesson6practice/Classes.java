@@ -1,4 +1,4 @@
-package lesson_6_practice;
+package lesson6practice;
 
 public class Classes {
     public static void main(String[] args) {

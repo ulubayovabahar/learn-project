@@ -1,5 +1,4 @@
-package Lesson_4;
-import java.util.Scanner;
+package lesson4;
 
 public class Practice_labels {
     public static void main(String[] args) {

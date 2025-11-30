@@ -1,5 +1,4 @@
-package Lesson_6;
-import java.util.Scanner;
+package lesson6;
 
 public class Overloading_practice {
 //        Məsələ 1:

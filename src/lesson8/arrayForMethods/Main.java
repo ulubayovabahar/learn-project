@@ -1,4 +1,4 @@
-package lesson_8.arrayForMethods;
+package lesson8.arrayForMethods;
 
 public class Main {
     public static void main(String[] args) {

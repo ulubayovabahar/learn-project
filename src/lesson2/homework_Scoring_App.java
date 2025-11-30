@@ -1,4 +1,4 @@
-package Lesson_2;
+package lesson2;
 
 public class homework_Scoring_App {
     public static void main(String[] args) {

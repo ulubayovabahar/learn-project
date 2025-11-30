@@ -1,4 +1,4 @@
-package lesson_8.arrayForMethods;
+package lesson8.arrayForMethods;
 
 public class ArrayImplementation {
     // “Massivin (array) həyata keçirilməsi” və ya “massivin implementasiyası”.
