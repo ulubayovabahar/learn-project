@@ -1,4 +1,4 @@
-package Lesson_6_practice;
+package lesson_6_practice;
 
 import staticKeyword_Les_6.PrintClass;
 

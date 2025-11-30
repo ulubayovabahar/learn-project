@@ -1,4 +1,4 @@
-package Lesson_6_practice;
+package lesson_6_practice;
 
 public class Sinifler {
     public static void main(String[] args) {

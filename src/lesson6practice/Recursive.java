@@ -1,5 +1,4 @@
-package Lesson_6_practice;
-import java.util.Scanner;
+package lesson_6_practice;
 
 public class Recursive {
 

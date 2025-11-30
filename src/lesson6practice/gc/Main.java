@@ -1,6 +1,4 @@
-package Lesson_6_practice.gc;
-
-import staticKeyword_Les_6.PrintClass;
+package lesson_6_practice.gc;
 
 public class Main {
     public static void main(String[] args) {

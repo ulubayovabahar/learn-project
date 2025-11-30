@@ -1,4 +1,4 @@
-package Lesson_6_practice.gc;
+package lesson_6_practice.gc;
 
 public class Dog {
 
