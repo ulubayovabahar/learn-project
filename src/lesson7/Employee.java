@@ -60,7 +60,7 @@ public class Employee {
     private int work_hours;
     private int hire_year;
 
-    Employee(String name, double salary, int work_hours, int hire_year){
+    public Employee(String name, double salary, int work_hours, int hire_year){
         this.name = name;
         this.salary = salary;
         this.work_hours = work_hours;
