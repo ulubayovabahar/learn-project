@@ -1,5 +1,5 @@
 package lesson7projectemployee;
-import lesson7.Employee;
+import l7.Employee;
 
 import java.util.Scanner;
 
