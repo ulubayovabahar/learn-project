@@ -51,7 +51,6 @@ public class Practice_while {
 //        Qeyd: ədədin 0-dan böyük olmasından əmin olun.
 
 
-
 //        Scanner input = new Scanner(System.in);
 //
 //        System.out.println("Musbet bir eded daxil edin.(0 daxil etmek olmaz!) ");
@@ -75,7 +74,6 @@ public class Practice_while {
 //        }
 //
 //        input.close();
-
 
 
         //Istifadeci eded daxil edir
@@ -168,16 +166,15 @@ public class Practice_while {
 //        İstifadəçidən bir tam ədəd daxil etməsini tələb et. while ilə bu ədədin rəqəmlərini tərsinə yazdır.
 //        Məsələn: 583 → 385
 
-        System.out.println("Eded daxil edin:");
-        int a = input.nextInt(); //472
-        int qaliq = 0;
-
-        while(a>0){
-            qaliq = a % 10;  // qaliq = 2
-
-
-        }
-
+//        System.out.println("Eded daxil edin:");
+//        int a = input.nextInt(); //472
+//        int qaliq = 0;
+//
+//        while(a>0){
+//            qaliq = a % 10;  // qaliq = 2
+//
+//
+//        }
 
 
 //        Cüt ədədlərin cəmi
@@ -240,19 +237,15 @@ public class Practice_while {
 //        6 → Şənbə
 //        7 → Bazar
 
-        int eded;
-
-        do{
-            System.out.println("1-7 araliginda eded daxil edin: ");
-            eded = input.nextInt();
-            if(eded<=0 || eded>7){
-                System.out.println("1-7 araliginda eded daxil edin! ");
-            }
-        }while(eded<=0 || eded>7);
-
-
-
-
+//        int eded;
+//
+//        do{
+//            System.out.println("1-7 araliginda eded daxil edin: ");
+//            eded = input.nextInt();
+//            if(eded<=0 || eded>7){
+//                System.out.println("1-7 araliginda eded daxil edin! ");
+//            }
+//        }while(eded<=0 || eded>7);
 
 
 //        İstifadəçidən istənilən qədər ədəd daxil etməsini tələb et və bu ədədlərin cəmini və ortalamasını tap.
@@ -271,8 +264,108 @@ public class Practice_while {
 //            System.out.println("Eded daxil edin");
 //        }
 
+        //
+
+//        int num = 1;
+//
+//        while(num <=7){
+//            System.out.println(num);
+//            num++;
+//        }
+
+        // İstifadəçidən daxil edilən rəqəm 0 olmadıqca təkrar soruşmaq
+
+//        int eded;
+//
+//        do {
+//            System.out.println("Ededi daxil edn:");
+//            eded = input.nextInt();
+//        } while (eded != 0);
+//
+//        System.out.println("Sonlandi! ");
+
+        //Məsələ – Rəqəmlərin cəmi
+        //İstifadəçidən müsbət tam ədəd daxil etməsini istəyirsən.
+        //✔️ Şərtlər:
+        //İstifadəçi mənfi ədəd daxil etsə → yenidən ədəd istəməlisən.
+        //İstifadəçi 0 daxil etsə → proqram dayanmalıdır.
+        //Hər müsbət ədəd daxil edildikdə:
+        //O ədədin rəqəmlərinin cəmini hesablayıb ekrana yazmalısan.
+        //Məsələn:
+        //123 → 1+2+3 = 6
+        //57 → 5+7 = 12
+        //✔️ Tələblər:
+        //do-while döngüsündən istifadə et.
+        //Rəqəmlərin cəmini hesablamaq üçün ikinci bir while döngüsü istifadə et.
+
+//        int eded;
+//
+//        do {
+//            System.out.println("Tam musbet eded daxil edin:");
+//            eded = input.nextInt();
+//            int cem = 0;
+//            int eded2 = eded;
+//            if(eded>0){
+//                while(eded>0){
+//                    int qaliq = eded % 10;
+//                    cem = cem + qaliq;
+//                    eded = eded / 10;
+//                }
+//                System.out.println(eded2 + " ededinin reqemlerinin cemi : " + cem);
+//            } else if (eded<0) {
+//                System.out.println("Mənfi ədəd daxil etdiniz!");
+//            }else{
+//                break;
+//            }
+//        } while(true);
+//
+//        System.out.println("Proqram dayandi! ");
+
+        // Indi heç bir break yazma.
+
+//        int eded;
+//
+//        do {
+//            System.out.println("Tam musbet eded daxil edin:");
+//            eded = input.nextInt();
+//            int cem = 0;
+//            int eded2 = eded;
+//            if(eded>0){
+//                while(eded>0){
+//                    int qaliq = eded % 10;
+//                    cem = cem + qaliq;
+//                    eded = eded / 10;
+//                }
+//                System.out.println(eded2 + " ededinin reqemlerinin cemi : " + cem);
+//            } else if (eded<0) {
+//                System.out.println("Mənfi ədəd daxil etdiniz!");
+//            }
+//        } while(eded!=0);
+//
+//        System.out.println("Proqram dayandi! ");
 
 
+        //        İstifadəçidən ardıcıl tam ədədlər daxil etməsi tələb olunur.
+//        Proqram daxil edilən ədədlərin ən böyüyünü tapmalıdır.
+//        İstifadəçi 0 daxil etdikdə proqram dayansın və ən böyük ədədi ekrana çıxarsın.
+
+        int eded;
+        int max = Integer.MIN_VALUE;
+
+        do{
+            System.out.println("Ededi daxil edin: ");
+            eded = input.nextInt();
+            if(eded!=0 && eded>max){
+                max=eded;
+            }
+        }while(eded!=0);
+        System.out.println("Proqram dayandi! ");
+
+        if (max == Integer.MIN_VALUE) {
+            System.out.println("Heç bir ədəd daxil edilməyib!");
+        } else {
+            System.out.println("En boyuk eded: " + max);
+        }
 
     }
 }

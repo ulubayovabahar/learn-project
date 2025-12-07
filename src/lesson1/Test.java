@@ -16,9 +16,9 @@ public class Test {
         //Terminalda sonda [Process finished with exit code 0] - gorunur
         //Burada 0 olmasi o demekdir ki, her sey success(ugurlu) idi. yeni proqram sonlanib.
 
-        //JVM - proyekti run eden eden zaman metn bytecode cevrilir, memoriye yeni RAM-a yuklenir.
+        //JVM - proyekti run eden zaman metn bytecode cevrilir, memoriye yeni RAM-a yuklenir.
         //Proqram yuklenen zaman memory-den silinir. Proqram yuklenen zaman yer tutmasin deye silinir
-        //BU prosesi heyata keciren JVM - Java Virtual MAsindir.
+        //BU prosesi heyata keciren JVM - Java Virtual Masindir.
 
         //JIT - KOdlari yazmisiq, lakin komputerin isleme struktura uygun o qeder de ideal yazilmayib
         //ishleyir lakin ideal yazilmayib. memory CPU eziyyet cekir. JIT onu onlar ucun daha anlashilan

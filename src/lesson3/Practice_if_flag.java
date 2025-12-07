@@ -195,10 +195,100 @@ public class Practice_if_flag {
 //
 //            System.out.println(flag);
 
+        // flag - mesele
         Scanner input = new Scanner(System.in);
-        int a,b;
+
+//        int[] ededler = {1, 5, 7, 9, 15};
+//        boolean tapildi = false;
+//
+//        for(int eded : ededler){
+//            if(eded==5){
+//                tapildi=true;
+//            }
+//        }
+//
+//        if(tapildi==true){
+//            System.out.println("5 ededi tapildi! ");
+//        }else{
+//            System.out.println("5 ededi tapilmadi! ");
+//        }
+
+        // Bir massiv verilir: int[] nums = {2, 4, 7, 10, 11, 16};
+        // Massivin içində tək ədəd olub-olmadığını yoxla.
+        // Əgər heç olmasa 1 dənə tək ədəd varsa, ekrana: Massivdə tək ədəd var
+        // Əgər heç bir tək ədəd yoxdursa, ekrana: Massivdə tək ədəd yoxdur
+
+//        int[] nums = {2, 34, 4, 10, 12, 16};
+//        boolean tekEded = false;
+//
+//        for(int num : nums){
+//            if(num%2!=0){
+//                tekEded=true;
+//                break;
+//            }
+//        }
+//
+//        if(tekEded){
+//            System.out.println("Massivdə tək ədəd var");
+//        }else{
+//            System.out.println("Massivdə tək ədəd yoxdur");
+//        }
 
 
+        //
+
+//        int[] nums = {3, 6, 8, 9, 12, 15, 18};
+//        boolean tekEded = false;
+//        boolean uceBolunen = false;
+//
+//        for(int num : nums){
+//            if(num%2!=0){
+//                tekEded=true;
+//            }
+//            if(num%3==0){
+//                uceBolunen=true;
+//            }
+//            if(tekEded && uceBolunen)
+//                break;
+//        }
+//
+//        if(tekEded){
+//            System.out.println("Massivdə tək ədəd var");
+//        }
+//
+//        if(uceBolunen){
+//            System.out.println("Massivdə 3-ə bölünən ədəd var");
+//        }
+//
+//        if(!tekEded && !uceBolunen){
+//            System.out.println("Massivdə tək də, 3-ə bölünən də yoxdur");
+//        }
+
+        // Sənə bir massiv verilir:
+        // int[] nums = {2, 4, 5, 6, 8, 9, 12};
+        // Massivdə ardıcıl iki ədədin cəmi 10-dan böyük olub olmadığını yoxla.
+        //Əgər belə bir cüt varsa, flag-i true et və döngünü dayandır.
+        //Sonra nəticəyə görə ekrana yaz:
+        // Əgər belə bir cüt varsa:
+        // Massivdə ardıcıl ədədlərin cəmi 10-dan böyük olan cüt var
+        // Əks halda:
+        // Massivdə belə cüt yoxdur
+
+        int[] nums = {2, 4, 5, 6, 8, 9, 12};
+        boolean flag = false;
+
+        for(int i=0; i< nums.length-1; i++){
+            if(nums[i]+nums[i+1] >10 ){
+                flag=true;
+                break;
+            }
+        }
+
+        if(flag){
+            System.out.println("Massivdə ardıcıl ədədlərin cəmi 10-dan böyük olan cüt var");
+        }else{
+            System.out.println("Massivdə belə cüt yoxdur");
+        }
 
 
 

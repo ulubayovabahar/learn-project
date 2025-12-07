@@ -35,8 +35,5 @@ public class Avarage {
 
         System.out.println("Ortalamaniz: " + cem/ notlar.length);
 
-
-
-
     }
 }
